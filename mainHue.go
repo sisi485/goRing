@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 	"time"
-	"github.com/sisi485/ring/hue"
+	"github.com/sisi485/goRing/hue"
 	"github.com/rhymen/go-whatsapp"
 	"encoding/gob"
 	"github.com/Baozisoftware/qrcode-terminal-go"
