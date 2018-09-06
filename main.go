@@ -5,7 +5,7 @@ import (
 	rpio "github.com/stianeikeland/go-rpio"
 	"os"
 	"time"
-	"ring/hue"
+	"github.com/sisi485/ring/hue"
 )
 
 
