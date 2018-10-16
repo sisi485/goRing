@@ -20,7 +20,7 @@ const (
 
 var (
 	// Use mcu pin 22, corresponds to GPIO 3 on the pi
-	pin = rpio.Pin(17)
+	pin = rpio.Pin(26)
 )
 
 func main() {
@@ -30,7 +30,7 @@ func main() {
 		fmt.Println(err)
 		os.Exit(1)
 	}
-	fmt.Println("start2")
+	fmt.Println(pin)
 	// Unmap gpio memory when done
 	defer rpio.Close()
 	fmt.Println("start3")
