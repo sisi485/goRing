@@ -30,13 +30,16 @@ func main() {
 		fmt.Println(err)
 		os.Exit(1)
 	}
+	fmt.Println("start2")
 	// Unmap gpio memory when done
 	defer rpio.Close()
-
+	fmt.Println("start3")
 	pin.Input()
+	fmt.Println("start4")
 	pin.PullUp()
+	fmt.Println("start5")
 	pin.Detect(rpio.AnyEdge) // enable falling edge event detection
-
+	fmt.Println("start6")
 	fmt.Println("press a button")
 
 	for  {
