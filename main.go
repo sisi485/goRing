@@ -9,13 +9,13 @@ import (
 )
 
 
-//const (
-//	AWAITTIME      = 800
-//	TRANSITIONTIME = float64(AWAITTIME) / 1000 / 0.1
+const (
+	AWAITTIME      = 800
+	TRANSITIONTIME = float64(AWAITTIME) / 1000 / 0.1
 //	//SENDMSGTO 	   = "491787807924"
 //	SENDMSGTO 	   = "4915154689867"
 //	MSGTEXT 	   = "mhhh et klingelt bruder"
-//)
+)
 
 
 var (
